@@ -16,7 +16,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(204, 58, 58);
+    background: rgb(8, 6, 6);
     color: white;
     & .logo {
         display: flex;
@@ -37,42 +37,35 @@ nav {
 }
 
 .details {
-    color: black;
+    color: #000;
     height: 0;
     width: 100%;
-    position: fixed;
+    position: absolute;
     z-index: 3;
     left: 0;
-    top: 11.5%;
+    top: 8%;
     background-color: white;
     overflow: hidden;
     transition: 1.5s;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-flow: column wrap;
     & h1 {
         text-align: center;
-        margin-top: 20px;
+        // margin-top: 15px;
+        border: 1px solid #000;
     }
     & .contentText {
-        // height: 500px;
-        // position: relative;
         z-index: 3;
-        // top: 25%;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 20px;
+        // padding: 10px;
         & div {
             text-align: justify;
-            margin: 10px;
-            // width: 200px;
+            margin: 20px;
         }
-        // & :nth-child(2) {
-        //     background-color: #000;
-        //     border: 1px solid #000;
-        // }
     }
 }
 
@@ -215,6 +208,7 @@ main {
             .getImg {
                 width: 50%;
                 height: inherit;
+                text-align: justify;
                 // border: 1px solid black;
                 & img {
                     max-width: 100%;
@@ -246,6 +240,7 @@ main {
 .service {
     height: 400px;
     width: 100%;
+    text-align: justify;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -255,10 +250,13 @@ main {
     .paragra3,
     .paragra4 {
         display: flex;
-        // justify-content: space-between;
         align-items: center;
         flex-flow: row wrap;
-        height: 150px;
+        background-color: rgb(228, 215, 215);
+        border-radius: 7px;
+        // border: 1px solid #000;
+        padding: 15px;
+        height: 300px;
         width: 200px;
         & span {
             display: block;
@@ -266,6 +264,7 @@ main {
         & img {
             max-width: 100%;
             max-height: 100%;
+            border-radius: 7px;
         }
     }
 }
@@ -286,14 +285,14 @@ footer {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    background-color: rgb(17, 17, 36);
+    background-color: rgb(25, 25, 119);
     color: white;
     margin-top: 40px;
     & .footerContent {
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        background-color: rgb(190, 55, 55);
+        background-color: rgb(12, 9, 9);
         // height: 200px;
         width: 100%;
         & p {
@@ -305,7 +304,7 @@ footer {
             height: 180px;
             // border: 1px solid #ccc;
             & h1 {
-                width: 90%;
+                width: 82%;
                 color: #fff;
                 // background-color: #fff;
                 margin: 10px;
@@ -318,9 +317,6 @@ footer {
                 // border: 1px solid #000;
                 width: 550px;
                 list-style-type: none;
-                // & li {
-                //     // display: block;
-                // }
             }
         }
     }

@@ -35,7 +35,7 @@ const changePasswordHandlerHandler = (e) =>{
         <input type="password" placeholder="Password" value={password} onChange = {(e)=>changePasswordHandlerHandler(e)}/>
     </p>
     <p>
-        <Btn/>
+        <Btn value="send"/>
     </p>
     </form> 
     </div>

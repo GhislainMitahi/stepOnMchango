@@ -4,7 +4,7 @@ import Btn from './btn';
 var Details = ({nombre,eventHandleOut}) => {
   return (
     <div className="details" style={{height : nombre}}>
-      <h1 className="titleDetail" > je suis le details de ce titre</h1>
+      {/* <h1 className="titleDetail" > je suis le details de ce titre</h1> */}
       <div>
       <div className='contentText'>
         <div >

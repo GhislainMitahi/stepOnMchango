@@ -16,7 +16,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #cc3a3a;
+  background: #080606;
   color: white;
 }
 nav .logo {
@@ -37,35 +37,34 @@ nav .menu p {
 }
 
 .details {
-  color: black;
+  color: #000;
   height: 0;
   width: 100%;
-  position: fixed;
+  position: absolute;
   z-index: 3;
   left: 0;
-  top: 11.5%;
+  top: 8%;
   background-color: white;
   overflow: hidden;
   transition: 1.5s;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-flow: column wrap;
 }
 .details h1 {
   text-align: center;
-  margin-top: 20px;
+  border: 1px solid #000;
 }
 .details .contentText {
   z-index: 3;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
 }
 .details .contentText div {
   text-align: justify;
-  margin: 10px;
+  margin: 20px;
 }
 
 header {
@@ -205,6 +204,7 @@ main .input .formWord .getText,
 main .input .formWord .getImg {
   width: 50%;
   height: inherit;
+  text-align: justify;
 }
 main .input .formWord .getText img,
 main .input .formWord .getImg img {
@@ -233,6 +233,7 @@ main form input {
 .service {
   height: 400px;
   width: 100%;
+  text-align: justify;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -245,7 +246,10 @@ main form input {
   display: flex;
   align-items: center;
   flex-flow: row wrap;
-  height: 150px;
+  background-color: #e4d7d7;
+  border-radius: 7px;
+  padding: 15px;
+  height: 300px;
   width: 200px;
 }
 .service .paragra1 span,
@@ -260,6 +264,7 @@ main form input {
 .service .paragra4 img {
   max-width: 100%;
   max-height: 100%;
+  border-radius: 7px;
 }
 
 .comment {
@@ -278,7 +283,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  background-color: #111124;
+  background-color: #191977;
   color: white;
   margin-top: 40px;
 }
@@ -286,7 +291,7 @@ footer .footerContent {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  background-color: #be3737;
+  background-color: #0c0909;
   width: 100%;
 }
 footer .footerContent p {
@@ -298,7 +303,7 @@ footer .footerContent p {
   height: 180px;
 }
 footer .footerContent p h1 {
-  width: 90%;
+  width: 82%;
   color: #fff;
   margin: 10px;
 }

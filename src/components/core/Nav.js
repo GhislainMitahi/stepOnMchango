@@ -18,7 +18,7 @@ const Nav = ({
 // functions
 
   const eventHandle= ()=>{
-      setHeights('60%')
+      setHeights('44%')
   }
   const eventHandleOut=()=>{
       setHeights('0%')

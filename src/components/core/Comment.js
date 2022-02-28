@@ -4,7 +4,7 @@ const Comment = () => {
   return (
     <div className="comment">
         <p>fondateur</p>
-        <p>Comment</p>
+        {/* <p>Comment</p> */}
     </div>
   )
 }
