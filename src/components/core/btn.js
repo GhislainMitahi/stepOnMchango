@@ -2,7 +2,7 @@
 const Btn = ({backgroundColor,color,value}) => {
     return ( 
       <>
-        <input style={btnStyle } type='submit' value={value}/>
+        <input style={btnStyle} type='submit' value={value}/>
       </>
     )
 }

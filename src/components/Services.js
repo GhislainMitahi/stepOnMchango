@@ -31,6 +31,7 @@ const Services = ({
             <img src={logo4} alt="" />
             <span>{text4}</span>
         </p>
+        
     </div>
     </>
   )

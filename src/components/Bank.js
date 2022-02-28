@@ -17,9 +17,6 @@ const Bank = ({title,text, img}) => {
            <div className="theText">
            <h1> {title} </h1> 
            <p className = 'texts'>{text}</p>
-           {/* <p className="btn">
-                  <Btn backgroundColor='blue' color='white' value="more..."/>
-                  </p> */}
              </div>
           <div className="data"><img src={img} alt=""/></div>
       </div>
